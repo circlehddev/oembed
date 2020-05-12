@@ -1,0 +1,11 @@
+---
+- provider_name: CircleHD
+  provider_url: https://www.circlehd.com/
+  endpoints:
+  - schemes:
+    - https://*.circlehd.com/view/*
+    url: https://api.circlehd.com/oembed.json
+    example_urls:
+    - https://api.circlehd.com/oembed.json?url=https%3A%2F%2Fdemo.circlehd.com%2Fview%2Fsample-media
+    discovery: true
+...
